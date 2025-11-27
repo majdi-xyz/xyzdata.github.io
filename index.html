@@ -3,237 +3,288 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="xyzdata - Modern Data Stack Engineering & Analytics for Business Growth">
-    <title>xyzdata | Modern Data Stack Engineering & Analytics</title>
+    <meta name="description" content="xyzdata - Freelance Data Leader helping corporations make sense of their data. From auditing infrastructure to building adapted solutions that connect, clean, and transform data for insights.">
+    <title>xyzdata | Data Intelligence & Solutions</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
+    <!-- Header -->
+    <header class="header">
         <div class="container">
-            <div class="logo">xyzdata</div>
+            <nav class="nav">
+                <div class="nav-logo">xyzdata</div>
+                <div class="nav-menu">
+                    <a href="#expertise" class="nav-link">Expertise</a>
+                    <a href="#services" class="nav-link">Services</a>
+                    <a href="#approach" class="nav-link">Approach</a>
+                    <a href="#contact" class="nav-link nav-link-cta">Contact</a>
+                </div>
+            </nav>
         </div>
     </header>
 
-    <main>
-        <section class="hero">
-            <div class="container">
-                <h1>Transform Your Data Into Strategic Business Value.</h1>
-                <p class="subtitle">We help businesses leverage the modern data stack to integrate, transform, and analyze their data—unlocking insights that drive growth and competitive advantage.</p>
-                <a href="#contact" class="cta-button">Start Your Data Journey</a>
-            </div>
-        </section>
-
-        <section class="approach">
-            <div class="container">
-                <div class="approach-content">
-                    <h2>Stack-Agnostic Expertise</h2>
-                    <p class="approach-intro">Every organization has unique data challenges. We adapt to <strong>your existing stack</strong>—whether you're using Snowflake, BigQuery, Databricks, dbt, Fivetran, or any other modern data tools.</p>
-                    <div class="approach-grid">
-                        <div class="approach-item">
-                            <h4>Your Stack, Our Expertise</h4>
-                            <p>We work with your current infrastructure and tools, ensuring seamless integration without forcing unnecessary migrations.</p>
-                        </div>
-                        <div class="approach-item">
-                            <h4>Value-First Mindset</h4>
-                            <p>Our focus isn't just building pipelines—it's extracting actionable business value from your data assets.</p>
-                        </div>
-                        <div class="approach-item">
-                            <h4>Modern Best Practices</h4>
-                            <p>We bring industry-leading practices in data engineering, observability, testing, and governance to every project.</p>
-                        </div>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">Freelance Data Leader</div>
+                <h1 class="hero-title">Make Sense of Your Data.</h1>
+                <p class="hero-subtitle">I help corporations unlock the value in their data—from auditing infrastructure and understanding stakeholder needs to building adapted solutions that connect, clean, and transform data for actionable insights.</p>
+                <div class="hero-clients">
+                    <span class="clients-label">Trusted by</span>
+                    <div class="clients-list">
+                        <span>Givaudan</span>
+                        <span>Looping Group</span>
+                        <span>Mooncard</span>
                     </div>
                 </div>
+                <a href="#contact" class="btn btn-primary">Start the Conversation</a>
             </div>
-        </section>
+        </div>
+        <div class="hero-gradient"></div>
+    </section>
 
-        <section class="services">
-            <div class="container">
-                <h2>What We Do</h2>
+    <!-- Expertise Section -->
+    <section id="expertise" class="expertise">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">What I Do</h2>
+                <p class="section-subtitle">End-to-end data solutions built for your business needs.</p>
+            </div>
+            <div class="expertise-grid">
+                <div class="expertise-card">
+                    <div class="card-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                            <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                            <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                        </svg>
+                    </div>
+                    <h3 class="card-title">Connect & Transform</h3>
+                    <p class="card-description">Build scalable pipelines that connect your data sources, clean inconsistencies, and transform raw data into structured, analysis-ready datasets using Python and modern ETL frameworks.</p>
+                </div>
+                <div class="expertise-card">
+                    <div class="card-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <line x1="12" y1="20" x2="12" y2="10"></line>
+                            <line x1="18" y1="20" x2="18" y2="4"></line>
+                            <line x1="6" y1="20" x2="6" y2="16"></line>
+                        </svg>
+                    </div>
+                    <h3 class="card-title">Generate Insights</h3>
+                    <p class="card-description">Turn data into decisions with KPI frameworks, real-time dashboards, and custom analytics models that surface the insights your stakeholders actually need.</p>
+                </div>
+                <div class="expertise-card">
+                    <div class="card-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                            <line x1="3" y1="9" x2="21" y2="9"></line>
+                            <line x1="9" y1="21" x2="9" y2="9"></line>
+                        </svg>
+                    </div>
+                    <h3 class="card-title">Audit & Optimize</h3>
+                    <p class="card-description">Assess your current infrastructure, identify gaps and inefficiencies, and design adapted architectures that scale with your business and support long-term data strategy.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Services</h2>
+                <p class="section-subtitle">Tailored data solutions for your specific challenges.</p>
+            </div>
+            <div class="services-content">
                 <div class="services-grid">
-                    <div class="service-card">
-                        <div class="service-icon">
-                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <div class="service-item">
+                        <div class="service-icon-small">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <circle cx="12" cy="12" r="3"></circle>
-                                <path d="M12 1v6m0 6v6m8.66-15.66l-4.24 4.24m-4.24 4.24l-4.24 4.24m15.66-4.24l-4.24-4.24m-4.24-4.24l-4.24-4.24"></path>
+                                <path d="M12 1v6m0 6v6"></path>
                             </svg>
                         </div>
-                        <h3>Data Integration & Ingestion</h3>
-                        <p>Connect APIs, databases, SaaS platforms, and legacy systems into your modern data warehouse. We design resilient ingestion pipelines using tools like Fivetran, Airbyte, or custom solutions tailored to your needs.</p>
+                        <div class="service-content">
+                            <h4 class="service-title">Data Integration</h4>
+                            <p class="service-description">Connect disparate systems, APIs, databases, and cloud platforms into a unified ecosystem.</p>
+                        </div>
                     </div>
-                    <div class="service-card">
-                        <div class="service-icon">
-                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <div class="service-item">
+                        <div class="service-icon-small">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="7" width="20" height="14" rx="2"></rect>
+                                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                            </svg>
+                        </div>
+                        <div class="service-content">
+                            <h4 class="service-title">ERP Data Extraction</h4>
+                            <p class="service-description">Extract and transform data from enterprise resource planning systems and business applications.</p>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon-small">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="3" y="3" width="18" height="18" rx="2"></rect>
+                                <path d="M9 3v18"></path>
+                            </svg>
+                        </div>
+                        <div class="service-content">
+                            <h4 class="service-title">Power BI Dashboards</h4>
+                            <p class="service-description">Interactive dashboards with advanced DAX calculations and clear visual storytelling.</p>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon-small">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <polyline points="16 18 22 12 16 6"></polyline>
                                 <polyline points="8 6 2 12 8 18"></polyline>
                             </svg>
                         </div>
-                        <h3>ETL/ELT Pipeline Development</h3>
-                        <p>Build scalable, maintainable data transformation pipelines with dbt, Airflow, or your preferred orchestration tool. We focus on modularity, testing, and documentation to ensure long-term success.</p>
+                        <div class="service-content">
+                            <h4 class="service-title">Custom Python Solutions</h4>
+                            <p class="service-description">Analytical models, automation scripts, and ML pipelines tailored to your needs.</p>
+                        </div>
                     </div>
-                    <div class="service-card">
-                        <div class="service-icon">
-                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <rect x="2" y="3" width="20" height="14" rx="2"></rect>
-                                <line x1="8" y1="21" x2="16" y2="21"></line>
-                                <line x1="12" y1="17" x2="12" y2="21"></line>
+                    <div class="service-item">
+                        <div class="service-icon-small">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
                             </svg>
                         </div>
-                        <h3>Data Warehousing & Modeling</h3>
-                        <p>Design efficient data models optimized for analytics and BI. From dimensional modeling to data vault architectures, we structure your data for performance and flexibility.</p>
+                        <div class="service-content">
+                            <h4 class="service-title">Data Quality & Governance</h4>
+                            <p class="service-description">Validation frameworks, monitoring systems, and policies to ensure data integrity.</p>
+                        </div>
                     </div>
-                    <div class="service-card">
-                        <div class="service-icon">
-                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <line x1="18" y1="20" x2="18" y2="10"></line>
-                                <line x1="12" y1="20" x2="12" y2="4"></line>
-                                <line x1="6" y1="20" x2="6" y2="14"></line>
+                    <div class="service-item">
+                        <div class="service-icon-small">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="12" y1="20" x2="12" y2="10"></line>
+                                <line x1="18" y1="20" x2="18" y2="4"></line>
+                                <line x1="6" y1="20" x2="6" y2="16"></line>
                             </svg>
                         </div>
-                        <h3>Business Intelligence & Analytics</h3>
-                        <p>Build self-service analytics platforms with tools like Tableau, Looker, Power BI, or Metabase. Empower your teams to explore data and make informed decisions independently.</p>
-                    </div>
-                    <div class="service-card">
-                        <div class="service-icon">
-                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
-                            </svg>
-                        </div>
-                        <h3>Data Quality & Observability</h3>
-                        <p>Implement data validation, testing, and monitoring frameworks to ensure accuracy and reliability. Catch issues before they impact business decisions using tools like Great Expectations and Monte Carlo.</p>
-                    </div>
-                    <div class="service-card">
-                        <div class="service-icon">
-                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <circle cx="12" cy="12" r="10"></circle>
-                                <path d="M12 16v-4m0-4h.01"></path>
-                            </svg>
-                        </div>
-                        <h3>AI/ML Enablement</h3>
-                        <p>Prepare your data infrastructure to support machine learning and AI initiatives. From feature stores to model deployment pipelines, we lay the foundation for advanced analytics.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="technologies">
-            <div class="container">
-                <h2>Modern Data Stack</h2>
-                <p class="tech-intro">We work with industry-leading tools and platforms to build robust, scalable data solutions.</p>
-                <div class="tech-grid">
-                    <div class="tech-category">
-                        <h4>Data Warehouses</h4>
-                        <div class="tech-tags">
-                            <span class="tech-tag">Snowflake</span>
-                            <span class="tech-tag">BigQuery</span>
-                            <span class="tech-tag">Redshift</span>
-                            <span class="tech-tag">Databricks</span>
-                        </div>
-                    </div>
-                    <div class="tech-category">
-                        <h4>Transformation & Orchestration</h4>
-                        <div class="tech-tags">
-                            <span class="tech-tag">dbt</span>
-                            <span class="tech-tag">Airflow</span>
-                            <span class="tech-tag">Dagster</span>
-                            <span class="tech-tag">Prefect</span>
-                        </div>
-                    </div>
-                    <div class="tech-category">
-                        <h4>Data Integration</h4>
-                        <div class="tech-tags">
-                            <span class="tech-tag">Fivetran</span>
-                            <span class="tech-tag">Airbyte</span>
-                            <span class="tech-tag">Stitch</span>
-                            <span class="tech-tag">Custom APIs</span>
-                        </div>
-                    </div>
-                    <div class="tech-category">
-                        <h4>Business Intelligence</h4>
-                        <div class="tech-tags">
-                            <span class="tech-tag">Tableau</span>
-                            <span class="tech-tag">Looker</span>
-                            <span class="tech-tag">Power BI</span>
-                            <span class="tech-tag">Metabase</span>
-                        </div>
-                    </div>
-                    <div class="tech-category">
-                        <h4>Data Quality</h4>
-                        <div class="tech-tags">
-                            <span class="tech-tag">Great Expectations</span>
-                            <span class="tech-tag">Monte Carlo</span>
-                            <span class="tech-tag">dbt Tests</span>
-                            <span class="tech-tag">Soda</span>
-                        </div>
-                    </div>
-                    <div class="tech-category">
-                        <h4>Languages & Frameworks</h4>
-                        <div class="tech-tags">
-                            <span class="tech-tag">Python</span>
-                            <span class="tech-tag">SQL</span>
-                            <span class="tech-tag">Spark</span>
-                            <span class="tech-tag">Pandas</span>
+                        <div class="service-content">
+                            <h4 class="service-title">KPI Frameworks & Reporting</h4>
+                            <p class="service-description">Define metrics, automate workflows, and create executive-level dashboards.</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section class="why-us">
-            <div class="container">
-                <h2>Why Choose xyzdata</h2>
-                <div class="why-grid">
-                    <div class="why-item">
-                        <div class="why-number">01</div>
-                        <h3>Pragmatic Solutions</h3>
-                        <p>We prioritize practical, maintainable solutions over complex over-engineering. Your data stack should empower your team, not overwhelm them.</p>
+    <!-- Approach Section -->
+    <section id="approach" class="approach">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">How I Work</h2>
+                <p class="section-subtitle">A proven methodology for delivering data solutions.</p>
+            </div>
+            <div class="approach-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <span class="timeline-number">01</span>
                     </div>
-                    <div class="why-item">
-                        <div class="why-number">02</div>
-                        <h3>Business-Focused</h3>
-                        <p>Technology is a means to an end. We start with your business goals and work backward to design data solutions that deliver measurable ROI.</p>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Audit & Understand</h3>
+                        <p class="timeline-description">I start by auditing your current infrastructure—understanding what systems you have, how data flows, and where the gaps are. Then I talk to your stakeholders to understand their real needs and identify opportunities for high-value insights.</p>
                     </div>
-                    <div class="why-item">
-                        <div class="why-number">03</div>
-                        <h3>Knowledge Transfer</h3>
-                        <p>We don't just deliver—we teach. Our engagements include documentation and training to ensure your team can maintain and extend what we build.</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <span class="timeline-number">02</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Connect, Clean & Transform</h3>
+                        <p class="timeline-description">I build adapted solutions that connect your data sources, clean inconsistencies, and transform raw data into structured formats ready for analysis. Every pipeline is designed for your specific context and business requirements.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <span class="timeline-number">03</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Deliver Insights</h3>
+                        <p class="timeline-description">I create dashboards and KPI frameworks that surface actionable insights, complete with documentation and knowledge transfer so your team can own and extend the solution moving forward.</p>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section id="contact" class="contact">
-            <div class="container">
-                <h2>Let's Talk About Your Data</h2>
-                <p class="contact-intro">Ready to unlock the value in your data? Tell us about your challenges and we'll show you what's possible.</p>
-                <form action="https://formspree.io/f/xblvdnrq" method="POST">
-                    <div class="form-group">
-                        <label for="name">Name *</label>
-                        <input type="text" id="name" name="name" required>
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h2 class="contact-title">Let's Work Together</h2>
+                    <p class="contact-description">Ready to make sense of your data? Reach out to discuss your challenges and explore how I can help build the right solution for your business.</p>
+                    <div class="contact-details">
+                        <div class="contact-detail-item">
+                            <div class="detail-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg>
+                            </div>
+                            <div class="detail-content">
+                                <p class="detail-label">Location</p>
+                                <p class="detail-value">Paris, France</p>
+                            </div>
+                        </div>
+                        <div class="contact-detail-item">
+                            <div class="detail-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                    <polyline points="22,6 12,13 2,6"></polyline>
+                                </svg>
+                            </div>
+                            <div class="detail-content">
+                                <p class="detail-label">Email</p>
+                                <p class="detail-value"><a href="mailto:info@xyzdata.com">info@xyzdata.com</a></p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="form-group">
-                        <label for="email">Email *</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="company">Company</label>
-                        <input type="text" id="company" name="company">
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Message *</label>
-                        <textarea id="message" name="message" rows="5" required placeholder="Tell us about your data challenges..."></textarea>
-                    </div>
-                    <button type="submit" class="submit-button">Send Message</button>
-                </form>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form action="https://formspree.io/f/xblvdnrq" method="POST" class="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name" class="form-label">Name *</label>
+                                <input type="text" id="name" name="name" class="form-input" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email *</label>
+                                <input type="email" id="email" name="email" class="form-input" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="company" class="form-label">Company</label>
+                            <input type="text" id="company" name="company" class="form-input">
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message *</label>
+                            <textarea id="message" name="message" rows="5" class="form-input form-textarea" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                    </form>
+                </div>
             </div>
-        </section>
-    </main>
+        </div>
+    </section>
 
-    <footer>
+    <!-- Footer -->
+    <footer class="footer">
         <div class="container">
             <div class="footer-content">
-                <div class="footer-info">
-                    <p><strong>xyzdata</strong></p>
-                    <p>Paris, France</p>
+                <div class="footer-brand">
+                    <div class="footer-logo">xyzdata</div>
+                    <p class="footer-tagline">Data Intelligence & Solutions</p>
                 </div>
                 <div class="footer-copyright">
                     <p>&copy; 2025 xyzdata. All rights reserved.</p>
