@@ -348,6 +348,38 @@ section {
 }
 
 /* ===================================
+   About Section
+   =================================== */
+.about {
+    background-color: var(--white);
+    padding: 100px 0;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-text {
+    margin-top: 48px;
+}
+
+.about-text p {
+    font-size: 21px;
+    line-height: 1.7;
+    color: var(--gray-700);
+    margin-bottom: 24px;
+    font-weight: 400;
+}
+
+.about-text p:last-child {
+    margin-top: 32px;
+    font-weight: 500;
+    color: var(--dark);
+}
+
+/* ===================================
    Services Section
    =================================== */
 .services {
@@ -759,6 +791,14 @@ section {
         padding: 60px 0;
     }
 
+    .about {
+        padding: 60px 0;
+    }
+
+    .about-text p {
+        font-size: 18px;
+    }
+
     .section-header {
         margin-bottom: 48px;
     }
@@ -932,6 +972,14 @@ section {
 
     section {
         padding: 50px 0;
+    }
+
+    .about {
+        padding: 50px 0;
+    }
+
+    .about-text p {
+        font-size: 16px;
     }
 
     .section-header {

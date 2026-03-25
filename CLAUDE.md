@@ -18,12 +18,13 @@ This is the personal website for Majdi Rabia (xyzdata), a freelance data enginee
 **Page Structure:**
 The site follows a single-page layout with anchor navigation:
 1. Header - Sticky navigation with logo and section links
-2. Hero - Main value proposition with client logos
-3. Expertise - Three core capabilities cards
-4. Services - Six detailed service offerings in a grid
-5. Approach - Three-step timeline showing methodology
-6. Contact - Two-column layout with info and Formspree form
-7. Footer - Branding and copyright
+2. Hero - Direct value proposition with client logos and free audit offer
+3. Expertise - Three core capabilities cards (what I do)
+4. About - Personal story section (who I am, why I do this)
+5. Services - Six service offerings in a grid
+6. Approach - Three-step timeline showing methodology (includes free audit mention)
+7. Contact - Two-column layout with free audit mention and Formspree form
+8. Footer - Personal branding with "I get things done" tagline
 
 **Design System:**
 CSS custom properties in `:root` define the color palette and design tokens:
@@ -81,14 +82,19 @@ Most interactive elements use subtle transforms and shadows:
 - Technical credibility without jargon
 
 **About Majdi:**
-- Background: Statistics (NUS Singapore) + French engineering (ENSTA)
-- Experience: Founder (Fairphonic), consultant to Givaudan, Looping Group
+- Background: Grew up in Paris ghetto, studied statistics at NUS Singapore, French engineering at ENSTA
+- Experience: Founded Fairphonic, worked with Givaudan, Mooncard, lemlist, BGC Partners, Capitalab
 - Expertise: Data engineering, Python pipelines, cloud infrastructure, AI/ML
+- Philosophy: Problem-solver, not data enthusiast. Data is a tool, not a passion
 - Approach: Hands-on builder who writes code and transfers knowledge
+- Offer: First 30min audit call is free
 - Based in Paris, works globally
 
 **Writing Style:**
-- Short, punchy sentences
+- Very short sentences. Fragment sentences are fine.
+- No adjectives unless necessary. No adverbs ever.
 - Concrete examples over abstract concepts
 - "Build" not "architect", "fix" not "optimize", "works" not "solution"
-- If it sounds like corporate marketing, rewrite it
+- Remove words like "actually", "really", "truly", "innovative", "cutting-edge", "leverage"
+- If it sounds like AI wrote it or like corporate marketing, delete it and start over
+- Write like you're texting a friend, not pitching a client
