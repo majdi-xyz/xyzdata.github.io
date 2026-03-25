@@ -1,0 +1,21 @@
+<svg width="140" height="32" viewBox="0 0 140 32" xmlns="http://www.w3.org/2000/svg">
+  <!-- Modern abstract data flow icon -->
+  <g transform="translate(0, 8)">
+    <!-- Three input nodes -->
+    <circle cx="3" cy="2" r="2" fill="#0066FF" opacity="0.6"/>
+    <circle cx="3" cy="8" r="2" fill="#0066FF"/>
+    <circle cx="3" cy="14" r="2" fill="#0066FF" opacity="0.6"/>
+
+    <!-- Connecting lines -->
+    <path d="M5 2 Q10 2 12 8" stroke="#0066FF" stroke-width="1.5" fill="none" opacity="0.6"/>
+    <path d="M5 8 L12 8" stroke="#0066FF" stroke-width="2" fill="none"/>
+    <path d="M5 14 Q10 14 12 8" stroke="#0066FF" stroke-width="1.5" fill="none" opacity="0.6"/>
+
+    <!-- Output node -->
+    <circle cx="15" cy="8" r="2.5" fill="#0066FF"/>
+    <circle cx="15" cy="8" r="1.5" fill="#fff"/>
+  </g>
+
+  <!-- Text: xyzdata -->
+  <text x="24" y="21" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif" font-size="18" font-weight="700" fill="#0A0A0F" letter-spacing="-0.8">xyzdata</text>
+</svg>
