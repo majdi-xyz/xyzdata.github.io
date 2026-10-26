@@ -6,266 +6,276 @@
     <title>xyzdata — Data for multi-site attractions operators</title>
     <meta name="description" content="One reliable revenue and attendance picture across every site. We unify ticketing, F&B and retail data from every POS into one tested model for theme parks, water parks, ski resorts, zoos and family entertainment centers.">
     <meta property="og:title" content="xyzdata — Data for multi-site attractions operators">
-    <meta property="og:description" content="One reliable revenue and attendance picture across every site. Ticketing, F&B and retail from every POS, unified into one tested model.">
+    <meta property="og:description" content="Every park is a world of its own. Run them as one. Ticketing, F&B and retail from every POS, unified into one tested model.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://xyzdata.co/">
     <link rel="canonical" href="https://xyzdata.co/">
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <!-- Header -->
     <header class="header">
-        <div class="container nav">
+        <div class="wrap nav">
             <a href="#top" class="nav-logo" aria-label="xyzdata home">
                 <img src="xyzdata-logo.svg" alt="xyzdata" width="140" height="32">
             </a>
             <nav class="nav-menu" aria-label="Main">
-                <a href="#problem" class="nav-link">Problem</a>
-                <a href="#how" class="nav-link">What we do</a>
-                <a href="#proof" class="nav-link">Proof</a>
-                <a href="#about" class="nav-link">About</a>
+                <a href="#problem">The problem</a>
+                <a href="#ride">How it works</a>
+                <a href="#about">About</a>
             </nav>
-            <a href="#contact" class="btn btn-sm btn-dark nav-cta">Book a call</a>
+            <a href="#contact" class="btn btn-ink nav-cta">Book a call</a>
         </div>
     </header>
 
     <main id="top">
 
-        <!-- Hero -->
+        <!-- ============ Hero ============ -->
         <section class="hero">
-            <div class="container">
-                <p class="eyebrow">Data for multi-site attractions operators</p>
-                <h1 class="hero-title">One reliable revenue and attendance picture across every site.</h1>
-                <p class="hero-sub">We unify ticketing, F&amp;B and retail data from every POS into one tested model, so adding a new site is a mapping exercise, not a rebuild.</p>
-                <div class="hero-actions">
-                    <a href="#contact" class="btn btn-primary">Book a 20-min call</a>
-                    <a href="#how" class="btn btn-ghost">See how it works</a>
+            <div class="wrap hero-grid">
+                <div class="hero-copy">
+                    <p class="kicker">Data for multi-site attractions operators</p>
+                    <h1>Every park is a world of its own.<br><em>Run them as one.</em></h1>
+                    <p class="hero-sub">We unify ticketing, F&amp;B and retail data from every POS into one tested model, so adding a new site is a mapping exercise, not a rebuild.</p>
+                    <div class="hero-actions">
+                        <a href="#contact" class="btn btn-accent">Book a short call</a>
+                        <a href="#ride" class="link-arrow">How it works</a>
+                    </div>
+                    <p class="hero-segments">Theme parks · Water parks · Ski resorts · Zoos &amp; aquariums · Family entertainment centers</p>
                 </div>
-                <ul class="hero-segments" aria-label="Who we work with">
-                    <li>Theme parks</li>
-                    <li>Water parks</li>
-                    <li>Ski resorts</li>
-                    <li>Zoos &amp; aquariums</li>
-                    <li>Family entertainment centers</li>
-                </ul>
-            </div>
 
-            <!-- Flow diagram: many POS → one model → one picture -->
-            <div class="container">
-                <div class="flow" aria-hidden="true">
-                    <div class="flow-col">
-                        <div class="flow-label">Every site, every POS</div>
-                        <div class="flow-site"><span class="flow-site-name">Park A</span><span class="flow-chips"><i>Ticketing</i><i>F&amp;B</i><i>Retail</i></span></div>
-                        <div class="flow-site"><span class="flow-site-name">Park B</span><span class="flow-chips"><i>Ticketing</i><i>F&amp;B</i></span></div>
-                        <div class="flow-site"><span class="flow-site-name">Resort C</span><span class="flow-chips"><i>Ticketing</i><i>Retail</i><i>Lifts</i></span></div>
-                        <div class="flow-site flow-site-new"><span class="flow-site-name">New site</span><span class="flow-chips"><i>Map &amp; done</i></span></div>
-                    </div>
-                    <div class="flow-arrow"></div>
-                    <div class="flow-col">
-                        <div class="flow-label">One tested model</div>
-                        <div class="flow-model">
-                            <div class="flow-model-row">Per-POS cleaning</div>
-                            <div class="flow-model-row">Shared product classification</div>
-                            <div class="flow-model-row">Daily revenue &amp; visits per site</div>
-                            <div class="flow-model-row flow-model-tests"><span class="dot"></span>All tests passing</div>
-                        </div>
-                    </div>
-                    <div class="flow-arrow"></div>
-                    <div class="flow-col">
-                        <div class="flow-label">One picture</div>
-                        <div class="flow-out">
-                            <div class="flow-out-head"><span>Site</span><span>Visits</span><span>Revenue</span></div>
-                            <div class="flow-out-row"><span>Park A</span><span>8,412</span><span>€312k</span></div>
-                            <div class="flow-out-row"><span>Park B</span><span>5,906</span><span>€198k</span></div>
-                            <div class="flow-out-row"><span>Resort C</span><span>3,250</span><span>€141k</span></div>
-                            <div class="flow-out-row flow-out-total"><span>Group</span><span>17,568</span><span>€651k</span></div>
-                        </div>
-                    </div>
+                <!-- The globe as a ride: a coaster track loops the planet, data floats off it -->
+                <div class="hero-art" aria-hidden="true">
+                    <svg class="globe" viewBox="0 0 640 640" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <pattern id="dots" width="13" height="13" patternUnits="userSpaceOnUse">
+                                <circle cx="6.5" cy="6.5" r="1.7" fill="var(--accent)" opacity="0.5"/>
+                            </pattern>
+                            <clipPath id="globeClip"><circle cx="320" cy="340" r="178"/></clipPath>
+                            <radialGradient id="shade" cx="38%" cy="32%" r="78%">
+                                <stop offset="0" stop-color="var(--paper)" stop-opacity="0"/>
+                                <stop offset="0.62" stop-color="var(--paper)" stop-opacity="0"/>
+                                <stop offset="1" stop-color="var(--paper)" stop-opacity="0.92"/>
+                            </radialGradient>
+                        </defs>
+
+                        <!-- the back half of the orbit, behind the planet -->
+                        <g class="orbit" transform="rotate(-22 320 340)">
+                            <path class="rail" d="M30 340 A290 112 0 0 1 610 340"/>
+                            <path class="ties" d="M30 340 A290 112 0 0 1 610 340"/>
+                        </g>
+                        <!-- the looping: a vertical loop on the far side of the track -->
+                        <g class="orbit orbit-loop" transform="rotate(-22 320 340)">
+                            <path class="rail" d="M560 322 a40 48 0 1 1 1 0"/>
+                            <path class="ties" d="M560 322 a40 48 0 1 1 1 0"/>
+                        </g>
+
+                        <!-- planet -->
+                        <g clip-path="url(#globeClip)">
+                            <rect x="142" y="162" width="356" height="356" fill="url(#dots)"/>
+                            <g class="wire">
+                                <ellipse cx="320" cy="340" rx="178" ry="52"/>
+                                <ellipse cx="320" cy="340" rx="178" ry="118"/>
+                                <ellipse cx="320" cy="340" rx="60" ry="178"/>
+                                <ellipse cx="320" cy="340" rx="128" ry="178"/>
+                                <line x1="142" y1="340" x2="498" y2="340"/>
+                                <line x1="320" y1="162" x2="320" y2="518"/>
+                            </g>
+                            <!-- a few "parks" pinned on the surface -->
+                            <g class="pins">
+                                <circle cx="262" cy="282" r="4"/>
+                                <circle cx="372" cy="250" r="4"/>
+                                <circle cx="408" cy="372" r="4"/>
+                                <circle cx="246" cy="398" r="4"/>
+                                <circle cx="330" cy="455" r="4"/>
+                            </g>
+                            <rect x="142" y="162" width="356" height="356" fill="url(#shade)"/>
+                        </g>
+                        <circle class="globe-edge" cx="320" cy="340" r="178"/>
+
+                        <!-- the front half of the orbit, in front of the planet, with the train -->
+                        <g class="orbit orbit-front" transform="rotate(-22 320 340)">
+                            <path class="rail" d="M30 340 A290 112 0 0 0 610 340"/>
+                            <path class="ties" d="M30 340 A290 112 0 0 0 610 340"/>
+                            <g class="train">
+                                <rect class="car car-a" x="-14" y="-7" width="28" height="14" rx="4"/>
+                                <rect class="car car-b" x="-14" y="-7" width="28" height="14" rx="4"/>
+                                <rect class="car car-c" x="-14" y="-7" width="28" height="14" rx="4"/>
+                            </g>
+                        </g>
+
+                        <!-- data floating off the ride -->
+                        <g class="chips">
+                            <g class="chip" style="--d:0s">
+                                <line x1="262" y1="282" x2="150" y2="170"/>
+                                <rect x="48" y="150" width="104" height="30" rx="7"/>
+                                <text x="100" y="169">Visits · today</text>
+                            </g>
+                            <g class="chip" style="--d:-1.6s">
+                                <line x1="372" y1="250" x2="470" y2="126"/>
+                                <rect x="470" y="106" width="124" height="30" rx="7"/>
+                                <text x="532" y="125">Revenue · per park</text>
+                            </g>
+                            <g class="chip" style="--d:-3.1s">
+                                <line x1="408" y1="372" x2="520" y2="470"/>
+                                <rect x="520" y="454" width="76" height="30" rx="7"/>
+                                <text x="558" y="473">F&amp;B</text>
+                            </g>
+                            <g class="chip" style="--d:-2.3s">
+                                <line x1="246" y1="398" x2="130" y2="486"/>
+                                <rect x="44" y="470" width="92" height="30" rx="7"/>
+                                <text x="90" y="489">Retail</text>
+                            </g>
+                            <g class="chip" style="--d:-0.9s">
+                                <line x1="330" y1="455" x2="330" y2="566"/>
+                                <rect x="270" y="566" width="120" height="30" rx="7"/>
+                                <text x="330" y="585">Season passes</text>
+                            </g>
+                        </g>
+                    </svg>
                 </div>
             </div>
         </section>
 
-        <!-- Problem -->
+        <!-- ============ Problem ============ -->
         <section id="problem" class="section">
-            <div class="container">
-                <div class="section-head">
-                    <p class="eyebrow">The problem</p>
-                    <h2>Group reporting shouldn't be a monthly spreadsheet fight.</h2>
+            <div class="wrap">
+                <div class="sec-head">
+                    <p class="kicker">The problem</p>
+                    <h2>Before the gates open, the numbers are already arguing.</h2>
                 </div>
-                <div class="grid-3">
-                    <article class="card">
-                        <span class="card-num">01</span>
-                        <h3>Every site runs a different POS.</h3>
-                        <p>Ticketing from one vendor, F&amp;B from another, retail from a third. Multiply by each park. Nothing exports the same way twice.</p>
+                <div class="stubs">
+                    <article class="stub">
+                        <span class="stub-tab">Admit one</span>
+                        <div class="stub-body">
+                            <h3>Every site runs a different POS.</h3>
+                            <p>Ticketing from one vendor, F&amp;B from another, retail from a third. Multiply by each park. Nothing exports the same way twice.</p>
+                        </div>
                     </article>
-                    <article class="card">
-                        <span class="card-num">02</span>
-                        <h3>Numbers don't match between sites.</h3>
-                        <p>Is a season pass a ticket or a subscription? Does a combo meal count once or twice? Each site answers differently, so the group total is always in dispute.</p>
+                    <article class="stub">
+                        <span class="stub-tab">Admit one</span>
+                        <div class="stub-body">
+                            <h3>Numbers don't match between sites.</h3>
+                            <p>Is a season pass a ticket or a subscription? Does a combo meal count once or twice? Each site answers differently, so the group total is always in dispute.</p>
+                        </div>
                     </article>
-                    <article class="card">
-                        <span class="card-num">03</span>
-                        <h3>Each new site means weeks of rework.</h3>
-                        <p>An acquisition or a new park lands, and someone rebuilds the reporting by hand. Again. The model never gets more robust, just bigger.</p>
+                    <article class="stub">
+                        <span class="stub-tab">Admit one</span>
+                        <div class="stub-body">
+                            <h3>Each new site means weeks of rework.</h3>
+                            <p>An acquisition or a new park lands, and someone rebuilds the reporting by hand. Again. The model never gets more robust, just bigger.</p>
+                        </div>
                     </article>
                 </div>
             </div>
         </section>
 
-        <!-- What we do -->
-        <section id="how" class="section section-alt">
-            <div class="container">
-                <div class="section-head">
-                    <p class="eyebrow">What we do</p>
-                    <h2>Three steps. Fixed scope. No open-ended consulting.</h2>
+        <!-- ============ The ride ============ -->
+        <section id="ride" class="section section-paper">
+            <div class="wrap">
+                <div class="sec-head">
+                    <p class="kicker">What we do</p>
+                    <h2>Three stops. Fixed scope.<br>Nothing open-ended.</h2>
                 </div>
-                <ol class="steps">
-                    <li class="step">
-                        <div class="step-meta">
-                            <span class="step-index">Step 1</span>
-                            <span class="step-tag">2 weeks · fixed price</span>
-                        </div>
-                        <div class="step-body">
-                            <h3>Data Diagnostic</h3>
-                            <p>We map every source across your sites, find where the numbers break, and design the target model. You get a written report and a quoted scope for the build, whether you do it with us or not.</p>
-                            <ul class="step-list">
-                                <li>Inventory of POS, ticketing, F&amp;B and retail sources per site</li>
-                                <li>Reconciliation of current reports against raw data</li>
-                                <li>Target model design and build estimate</li>
-                            </ul>
-                        </div>
+                <ol class="stops">
+                    <li class="stop">
+                        <span class="stop-marker"></span>
+                        <p class="stop-when">First stop · two weeks · fixed price</p>
+                        <h3>Data Diagnostic</h3>
+                        <p>We map every source across your sites, find where the numbers break, and design the target model. You get a written report and a quoted scope for the build, whether you do it with us or not.</p>
+                        <ul>
+                            <li>Inventory of POS, ticketing, F&amp;B and retail sources per site</li>
+                            <li>Reconciliation of current reports against raw data</li>
+                            <li>Target model design and build estimate</li>
+                        </ul>
                     </li>
-                    <li class="step">
-                        <div class="step-meta">
-                            <span class="step-index">Step 2</span>
-                            <span class="step-tag">6–8 weeks</span>
-                        </div>
-                        <div class="step-body">
-                            <h3>Unified Model build</h3>
-                            <p>One model that turns every POS feed into daily revenue and visits per site, with the same product classification everywhere. Tested, documented, and owned by you.</p>
-                            <ul class="step-list">
-                                <li>Per-POS cleaning and normalisation</li>
-                                <li>Shared product classification across sites</li>
-                                <li>Daily revenue &amp; visits per site, with automated tests</li>
-                                <li>Runs on Snowflake, Azure, or BigQuery</li>
-                            </ul>
-                        </div>
+                    <li class="stop">
+                        <span class="stop-marker"></span>
+                        <p class="stop-when">Second stop · about two months</p>
+                        <h3>Unified Model build</h3>
+                        <p>One model that turns every POS feed into daily revenue and visits per site, with the same product classification everywhere. Tested, documented, and owned by you.</p>
+                        <ul>
+                            <li>Per-POS cleaning and normalisation</li>
+                            <li>Shared product classification across sites</li>
+                            <li>Daily revenue &amp; visits per site, with automated tests</li>
+                            <li>Runs on Snowflake, Azure, or BigQuery</li>
+                        </ul>
                     </li>
-                    <li class="step">
-                        <div class="step-meta">
-                            <span class="step-index">Step 3</span>
-                            <span class="step-tag">monthly</span>
-                        </div>
-                        <div class="step-body">
-                            <h3>Ongoing data lead</h3>
-                            <p>A senior data person on retainer. New sites get mapped in, new reports get built, and forecasting gets added when the base is solid.</p>
-                            <ul class="step-list">
-                                <li>Onboarding of new sites and new POS systems</li>
-                                <li>New reports and dashboards as the business asks</li>
-                                <li>Attendance and revenue forecasting</li>
-                            </ul>
-                        </div>
+                    <li class="stop">
+                        <span class="stop-marker"></span>
+                        <p class="stop-when">Last stop · monthly</p>
+                        <h3>Ongoing data lead</h3>
+                        <p>A senior data person on retainer. New sites get mapped in, new reports get built, and forecasting gets added once the base is solid.</p>
+                        <ul>
+                            <li>Onboarding of new sites and new POS systems</li>
+                            <li>New reports and dashboards as the business asks</li>
+                            <li>Attendance and revenue forecasting</li>
+                        </ul>
                     </li>
                 </ol>
             </div>
         </section>
 
-        <!-- Systems -->
+        <!-- ============ Systems ============ -->
         <section id="systems" class="section">
-            <div class="container">
-                <div class="section-head section-head-left">
-                    <p class="eyebrow">Systems we work with</p>
-                    <h2>Your stack, not ours.</h2>
-                    <p class="lead">We build on the warehouse and BI tools you already pay for, and we plug into whatever your sites run at the till.</p>
+            <div class="wrap split">
+                <div class="sec-head sec-head-split">
+                    <p class="kicker">Systems we work with</p>
+                    <h2>Runs on what you already have.</h2>
+                    <p class="lead">We build on the warehouse and BI tools you already pay for, and plug into whatever your sites run at the till.</p>
                 </div>
                 <div class="systems">
                     <div class="systems-group">
                         <h3>Data platform &amp; BI</h3>
-                        <ul class="pills">
-                            <li>Snowflake</li>
-                            <li>Azure</li>
-                            <li>BigQuery</li>
-                            <li>dbt</li>
-                            <li>Domo</li>
-                            <li>Power BI</li>
+                        <ul class="tags">
+                            <li>Snowflake</li><li>Azure</li><li>BigQuery</li><li>dbt</li><li>Domo</li><li>Power BI</li>
                         </ul>
                     </div>
                     <div class="systems-group">
                         <h3>Ticketing &amp; POS</h3>
-                        <ul class="pills">
-                            <li>Online ticketing platforms</li>
-                            <li>Gate &amp; admission systems</li>
-                            <li>F&amp;B point of sale</li>
-                            <li>Retail point of sale</li>
-                            <li>Season pass &amp; membership</li>
-                            <li>Manual &amp; legacy exports</li>
+                        <ul class="tags">
+                            <li>Online ticketing</li><li>Gate &amp; admission</li><li>F&amp;B point of sale</li><li>Retail point of sale</li><li>Season pass &amp; membership</li><li>Manual &amp; legacy exports</li>
                         </ul>
-                        <p class="systems-note">Several ticketing and POS vendors are already mapped. If yours isn&#39;t one of them, it&#39;s a mapping exercise, not a blocker.</p>
+                        <p class="note">Several ticketing and POS vendors are already mapped. If yours isn't one of them, it's a mapping exercise, not a blocker.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Proof -->
-        <section id="proof" class="section section-dark">
-            <div class="container">
-                <div class="section-head section-head-left">
-                    <p class="eyebrow">Proof</p>
-                    <h2>European multi-park leisure group</h2>
-                    <p class="lead">Parks across several countries, each with its own ticketing and POS vendors, and a group finance team reconciling by hand every month.</p>
-                </div>
-                <div class="stats">
-                    <div class="stat">
-                        <span class="stat-value">6</span>
-                        <span class="stat-label">parks unified</span>
-                    </div>
-                    <div class="stat">
-                        <span class="stat-value">7</span>
-                        <span class="stat-label">POS providers mapped</span>
-                    </div>
-                    <div class="stat">
-                        <span class="stat-value">1</span>
-                        <span class="stat-label">tested model, daily revenue &amp; visits per site</span>
-                    </div>
-                </div>
-                <p class="proof-note">Client names withheld. References available on a call.</p>
+        <!-- ============ Proof (quiet) ============ -->
+        <section class="section section-ink">
+            <div class="wrap">
+                <p class="kicker">Built on real parks</p>
+                <p class="quote">We've done this for operators who run several parks across borders, each with its own tills and its own idea of what a ticket is. Names stay off the site. Ask on the call.</p>
             </div>
         </section>
 
-        <!-- About -->
+        <!-- ============ About ============ -->
         <section id="about" class="section">
-            <div class="container">
-                <div class="about">
-                    <div class="about-photo" role="img" aria-label="Photo of Majdi Rabia">
-                        <span>MR</span>
-                    </div>
-                    <div class="about-text">
-                        <p class="eyebrow">About</p>
-                        <h2>Majdi Rabia</h2>
-                        <p>Founder of xyzdata, based in Paris. Previously Lead Analytics Engineer at lemlist, where he ran the data stack for a fast-growing SaaS. He teaches AI at HEC Paris and ENSTA.</p>
-                        <p>He writes the SQL himself. Every engagement is led by him, start to finish.</p>
-                        <ul class="about-facts">
-                            <li>Ex-Lead Analytics Engineer, lemlist</li>
-                            <li>Teaches AI at HEC Paris &amp; ENSTA</li>
-                            <li>Paris, works with operators across Europe</li>
-                        </ul>
-                    </div>
+            <div class="wrap about">
+                <div class="about-photo" role="img" aria-label="Photo of Majdi Rabia">
+                    <span>MR</span>
+                </div>
+                <div class="about-text">
+                    <p class="kicker">About</p>
+                    <h2>Majdi Rabia</h2>
+                    <p>Founder of xyzdata, based in Paris. Previously Lead Analytics Engineer at lemlist, where he ran the data stack for a fast-growing SaaS. He teaches AI at HEC Paris and ENSTA.</p>
+                    <p>He writes the SQL himself. Every engagement is led by him, start to finish.</p>
                 </div>
             </div>
         </section>
 
-        <!-- Final CTA -->
-        <section id="contact" class="section section-cta">
-            <div class="container">
-                <h2>Start with a 20-minute call.</h2>
+        <!-- ============ CTA ============ -->
+        <section id="contact" class="section section-paper cta">
+            <div class="wrap">
+                <h2>Start with a short call.</h2>
                 <p class="lead">Tell us how many sites you run and what you use at the till. We'll tell you straight whether a unified model makes sense, and what the Diagnostic would cover.</p>
                 <div class="cta-actions">
-                    <a href="mailto:contact@xyzdata.co?subject=20-min%20call%20about%20our%20sites" class="btn btn-primary btn-lg">Book a 20-min call</a>
+                    <a href="mailto:contact@xyzdata.co?subject=Call%20about%20our%20sites" class="btn btn-accent btn-lg">Book a short call</a>
                     <a href="mailto:contact@xyzdata.co" class="cta-email">contact@xyzdata.co</a>
                 </div>
             </div>
@@ -274,10 +284,10 @@
     </main>
 
     <footer class="footer">
-        <div class="container footer-row">
+        <div class="wrap footer-row">
             <img src="xyzdata-logo.svg" alt="xyzdata" width="112" height="26" class="footer-logo">
             <p>Data for multi-site attractions operators · Paris</p>
-            <p>&copy; 2026 XYZ Data</p>
+            <p>&copy; XYZ Data</p>
         </div>
     </footer>
 
