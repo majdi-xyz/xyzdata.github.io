@@ -3,316 +3,283 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Majdi Rabia - I build data systems that work. Python pipelines, cloud warehouses, automated dashboards. No fluff, just results. Based in Paris, working globally.">
-    <title>Majdi Rabia | Data Engineering & Intelligence</title>
+    <title>xyzdata — Data for multi-site attractions operators</title>
+    <meta name="description" content="One reliable revenue and attendance picture across every site. We unify ticketing, F&B and retail data from every POS into one tested model for theme parks, water parks, ski resorts, zoos and family entertainment centers.">
+    <meta property="og:title" content="xyzdata — Data for multi-site attractions operators">
+    <meta property="og:description" content="One reliable revenue and attendance picture across every site. Ticketing, F&B and retail from every POS, unified into one tested model.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://xyzdata.co/">
+    <link rel="canonical" href="https://xyzdata.co/">
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
     <!-- Header -->
     <header class="header">
-        <div class="container">
-            <nav class="nav">
-                <a href="/" class="nav-logo">
-                    <img src="xyzdata-logo.svg" alt="xyzdata">
-                </a>
-                <div class="nav-menu">
-                    <a href="#expertise" class="nav-link">What I Do</a>
-                    <a href="#about" class="nav-link">Who I Am</a>
-                    <a href="#approach" class="nav-link">How I Work</a>
-                    <a href="#contact" class="nav-link nav-link-cta">Contact</a>
-                </div>
+        <div class="container nav">
+            <a href="#top" class="nav-logo" aria-label="xyzdata home">
+                <img src="xyzdata-logo.svg" alt="xyzdata" width="140" height="32">
+            </a>
+            <nav class="nav-menu" aria-label="Main">
+                <a href="#problem" class="nav-link">Problem</a>
+                <a href="#how" class="nav-link">What we do</a>
+                <a href="#proof" class="nav-link">Proof</a>
+                <a href="#about" class="nav-link">About</a>
             </nav>
+            <a href="#contact" class="btn btn-sm btn-dark nav-cta">Book a call</a>
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <div class="hero-badge">Majdi Rabia</div>
-                <h1 class="hero-title">I Connect Technology With Business.</h1>
-                <p class="hero-subtitle">Your data is scattered. Your reports take hours. Your team makes decisions without good numbers. I fix that. I build the pipelines and dashboards that connect your systems and give you answers.</p>
-                <div class="hero-clients">
-                    <span class="clients-label">I've worked with</span>
-                    <div class="clients-list">
-                        <span>Givaudan</span>
-                        <span>Mooncard</span>
-                        <span>lemlist</span>
-                        <span>BGC Partners</span>
-                        <span>Capitalab</span>
-                    </div>
-                </div>
-                <a href="#contact" class="btn btn-primary">Let's Talk</a>
-            </div>
-        </div>
-        <div class="hero-gradient"></div>
-    </section>
+    <main id="top">
 
-    <!-- Expertise Section -->
-    <section id="expertise" class="expertise">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">What I Do</h2>
-                <p class="section-subtitle">I've worked with companies like Givaudan, Mooncard, lemlist, and BGC Partners. I connect their technology to their business problems.</p>
+        <!-- Hero -->
+        <section class="hero">
+            <div class="container">
+                <p class="eyebrow">Data for multi-site attractions operators</p>
+                <h1 class="hero-title">One reliable revenue and attendance picture across every site.</h1>
+                <p class="hero-sub">We unify ticketing, F&amp;B and retail data from every POS into one tested model, so adding a new site is a mapping exercise, not a rebuild.</p>
+                <div class="hero-actions">
+                    <a href="#contact" class="btn btn-primary">Book a 20-min call</a>
+                    <a href="#how" class="btn btn-ghost">See how it works</a>
+                </div>
+                <ul class="hero-segments" aria-label="Who we work with">
+                    <li>Theme parks</li>
+                    <li>Water parks</li>
+                    <li>Ski resorts</li>
+                    <li>Zoos &amp; aquariums</li>
+                    <li>Family entertainment centers</li>
+                </ul>
             </div>
-            <div class="expertise-grid">
-                <div class="expertise-card">
-                    <div class="card-icon">
-                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                            <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
-                            <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
-                            <line x1="12" y1="22.08" x2="12" y2="12"></line>
-                        </svg>
-                    </div>
-                    <h3 class="card-title">Connect Your Systems</h3>
-                    <p class="card-description">Your data lives in different places—ERP, CRM, databases, spreadsheets. I build pipelines that pull it all together automatically. No more manual exports.</p>
-                </div>
-                <div class="expertise-card">
-                    <div class="card-icon">
-                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                            <line x1="12" y1="20" x2="12" y2="10"></line>
-                            <line x1="18" y1="20" x2="18" y2="4"></line>
-                            <line x1="6" y1="20" x2="6" y2="16"></line>
-                        </svg>
-                    </div>
-                    <h3 class="card-title">Build Dashboards That Answer Questions</h3>
-                    <p class="card-description">I build dashboards that show you what you need to see. Sales numbers, customer trends, operations metrics. Power BI, Tableau, whatever works for you.</p>
-                </div>
-                <div class="expertise-card">
-                    <div class="card-icon">
-                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
-                            <line x1="3" y1="9" x2="21" y2="9"></line>
-                            <line x1="9" y1="21" x2="9" y2="9"></line>
-                        </svg>
-                    </div>
-                    <h3 class="card-title">Fix What's Broken</h3>
-                    <p class="card-description">Duplicate records. Numbers that don't match. I'll audit what you have, fix what's wrong, and train your team to maintain it.</p>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- Who I Am Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <div class="about-content">
-                <h2 class="section-title">Who I Am</h2>
-                <div class="about-text">
-                    <p>I grew up in the ghetto of Paris. Now I'm trying to reach the moon somehow.</p>
-                    <p>Data is not my passion. I'm driven by solving problems. If your problem involves data—and most do—I can help.</p>
-                    <p>I studied statistics in Singapore, worked in startups, taught entrepreneurship at ENSTA. I've built things that failed and things that worked. I write code, connect systems, and help businesses make better decisions.</p>
-                    <p>That's it.</p>
+            <!-- Flow diagram: many POS → one model → one picture -->
+            <div class="container">
+                <div class="flow" aria-hidden="true">
+                    <div class="flow-col">
+                        <div class="flow-label">Every site, every POS</div>
+                        <div class="flow-site"><span class="flow-site-name">Park A</span><span class="flow-chips"><i>Ticketing</i><i>F&amp;B</i><i>Retail</i></span></div>
+                        <div class="flow-site"><span class="flow-site-name">Park B</span><span class="flow-chips"><i>Ticketing</i><i>F&amp;B</i></span></div>
+                        <div class="flow-site"><span class="flow-site-name">Resort C</span><span class="flow-chips"><i>Ticketing</i><i>Retail</i><i>Lifts</i></span></div>
+                        <div class="flow-site flow-site-new"><span class="flow-site-name">New site</span><span class="flow-chips"><i>Map &amp; done</i></span></div>
+                    </div>
+                    <div class="flow-arrow"></div>
+                    <div class="flow-col">
+                        <div class="flow-label">One tested model</div>
+                        <div class="flow-model">
+                            <div class="flow-model-row">Per-POS cleaning</div>
+                            <div class="flow-model-row">Shared product classification</div>
+                            <div class="flow-model-row">Daily revenue &amp; visits per site</div>
+                            <div class="flow-model-row flow-model-tests"><span class="dot"></span>All tests passing</div>
+                        </div>
+                    </div>
+                    <div class="flow-arrow"></div>
+                    <div class="flow-col">
+                        <div class="flow-label">One picture</div>
+                        <div class="flow-out">
+                            <div class="flow-out-head"><span>Site</span><span>Visits</span><span>Revenue</span></div>
+                            <div class="flow-out-row"><span>Park A</span><span>8,412</span><span>€312k</span></div>
+                            <div class="flow-out-row"><span>Park B</span><span>5,906</span><span>€198k</span></div>
+                            <div class="flow-out-row"><span>Resort C</span><span>3,250</span><span>€141k</span></div>
+                            <div class="flow-out-row flow-out-total"><span>Group</span><span>17,568</span><span>€651k</span></div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Services Section -->
-    <section id="services" class="services">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Services</h2>
-                <p class="section-subtitle">Here's what I do for clients.</p>
-            </div>
-            <div class="services-content">
-                <div class="services-grid">
-                            <div class="service-item">
-                        <div class="service-icon-small">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <circle cx="12" cy="12" r="3"></circle>
-                                <path d="M12 1v6m0 6v6"></path>
-                            </svg>
-                        </div>
-                        <div class="service-content">
-                            <h4 class="service-title">Data Infrastructure</h4>
-                            <p class="service-description">Move from spreadsheets to cloud warehouses. Snowflake, BigQuery. Everything in one place.</p>
-                        </div>
-                    </div>
-                    <div class="service-item">
-                        <div class="service-icon-small">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <rect x="2" y="7" width="20" height="14" rx="2"></rect>
-                                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
-                            </svg>
-                        </div>
-                        <div class="service-content">
-                            <h4 class="service-title">System Integration</h4>
-                            <p class="service-description">Connect your ERP, CRM, and business apps. SAP, Salesforce, custom systems. Automatic syncs.</p>
-                        </div>
-                    </div>
-                    <div class="service-item">
-                        <div class="service-icon-small">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <rect x="3" y="3" width="18" height="18" rx="2"></rect>
-                                <path d="M9 3v18"></path>
-                            </svg>
-                        </div>
-                        <div class="service-content">
-                            <h4 class="service-title">Dashboards & Analytics</h4>
-                            <p class="service-description">Power BI, Tableau, custom tools. Auto-updating dashboards that track what matters to you.</p>
-                        </div>
-                    </div>
-                    <div class="service-item">
-                        <div class="service-icon-small">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="16 18 22 12 16 6"></polyline>
-                                <polyline points="8 6 2 12 8 18"></polyline>
-                            </svg>
-                        </div>
-                        <div class="service-content">
-                            <h4 class="service-title">Automated Pipelines</h4>
-                            <p class="service-description">Python pipelines that run on schedule. Pull, transform, load. Set it and forget it.</p>
-                        </div>
-                    </div>
-                    <div class="service-item">
-                        <div class="service-icon-small">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-                            </svg>
-                        </div>
-                        <div class="service-content">
-                            <h4 class="service-title">Data Quality</h4>
-                            <p class="service-description">Fix duplicates, format issues, validation gaps. Add checks to keep it clean.</p>
-                        </div>
-                    </div>
-                    <div class="service-item">
-                        <div class="service-icon-small">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <line x1="12" y1="20" x2="12" y2="10"></line>
-                                <line x1="18" y1="20" x2="18" y2="4"></line>
-                                <line x1="6" y1="20" x2="6" y2="16"></line>
-                            </svg>
-                        </div>
-                        <div class="service-content">
-                            <h4 class="service-title">Analytics Strategy</h4>
-                            <p class="service-description">Figure out what to measure. Build the reporting. Train your team.</p>
-                        </div>
-                    </div>
+        <!-- Problem -->
+        <section id="problem" class="section">
+            <div class="container">
+                <div class="section-head">
+                    <p class="eyebrow">The problem</p>
+                    <h2>Group reporting shouldn't be a monthly spreadsheet fight.</h2>
+                </div>
+                <div class="grid-3">
+                    <article class="card">
+                        <span class="card-num">01</span>
+                        <h3>Every site runs a different POS.</h3>
+                        <p>Ticketing from one vendor, F&amp;B from another, retail from a third. Multiply by each park. Nothing exports the same way twice.</p>
+                    </article>
+                    <article class="card">
+                        <span class="card-num">02</span>
+                        <h3>Numbers don't match between sites.</h3>
+                        <p>Is a season pass a ticket or a subscription? Does a combo meal count once or twice? Each site answers differently, so the group total is always in dispute.</p>
+                    </article>
+                    <article class="card">
+                        <span class="card-num">03</span>
+                        <h3>Each new site means weeks of rework.</h3>
+                        <p>An acquisition or a new park lands, and someone rebuilds the reporting by hand. Again. The model never gets more robust, just bigger.</p>
+                    </article>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Approach Section -->
-    <section id="approach" class="approach">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">How I Work</h2>
-                <p class="section-subtitle">First 30 minutes are free. I'll audit what you have and tell you what's possible.</p>
+        <!-- What we do -->
+        <section id="how" class="section section-alt">
+            <div class="container">
+                <div class="section-head">
+                    <p class="eyebrow">What we do</p>
+                    <h2>Three steps. Fixed scope. No open-ended consulting.</h2>
+                </div>
+                <ol class="steps">
+                    <li class="step">
+                        <div class="step-meta">
+                            <span class="step-index">Step 1</span>
+                            <span class="step-tag">2 weeks · fixed price</span>
+                        </div>
+                        <div class="step-body">
+                            <h3>Data Diagnostic</h3>
+                            <p>We map every source across your sites, find where the numbers break, and design the target model. You get a written report and a quoted scope for the build, whether you do it with us or not.</p>
+                            <ul class="step-list">
+                                <li>Inventory of POS, ticketing, F&amp;B and retail sources per site</li>
+                                <li>Reconciliation of current reports against raw data</li>
+                                <li>Target model design and build estimate</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="step">
+                        <div class="step-meta">
+                            <span class="step-index">Step 2</span>
+                            <span class="step-tag">6–8 weeks</span>
+                        </div>
+                        <div class="step-body">
+                            <h3>Unified Model build</h3>
+                            <p>One model that turns every POS feed into daily revenue and visits per site, with the same product classification everywhere. Tested, documented, and owned by you.</p>
+                            <ul class="step-list">
+                                <li>Per-POS cleaning and normalisation</li>
+                                <li>Shared product classification across sites</li>
+                                <li>Daily revenue &amp; visits per site, with automated tests</li>
+                                <li>Runs on Snowflake, Azure, or BigQuery</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="step">
+                        <div class="step-meta">
+                            <span class="step-index">Step 3</span>
+                            <span class="step-tag">monthly</span>
+                        </div>
+                        <div class="step-body">
+                            <h3>Ongoing data lead</h3>
+                            <p>A senior data person on retainer. New sites get mapped in, new reports get built, and forecasting gets added when the base is solid.</p>
+                            <ul class="step-list">
+                                <li>Onboarding of new sites and new POS systems</li>
+                                <li>New reports and dashboards as the business asks</li>
+                                <li>Attendance and revenue forecasting</li>
+                            </ul>
+                        </div>
+                    </li>
+                </ol>
             </div>
-            <div class="approach-timeline">
-                <div class="timeline-item">
-                    <div class="timeline-marker">
-                        <span class="timeline-number">01</span>
-                    </div>
-                    <div class="timeline-content">
-                        <h3 class="timeline-title">I Figure Out What You Need</h3>
-                        <p class="timeline-description">I talk to your team. What questions do you need answered? What's slowing you down? I audit your systems and figure out where the problems are.</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-marker">
-                        <span class="timeline-number">02</span>
-                    </div>
-                    <div class="timeline-content">
-                        <h3 class="timeline-title">I Build It</h3>
-                        <p class="timeline-description">I write the code. Python pipelines, SQL, API integrations. I connect your systems and set up the automation. You get updates as I go.</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-marker">
-                        <span class="timeline-number">03</span>
-                    </div>
-                    <div class="timeline-content">
-                        <h3 class="timeline-title">I Hand It Over</h3>
-                        <p class="timeline-description">I build the dashboards, document everything, and train your team. You get the code and the knowledge. No vendor lock-in.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <div class="contact-wrapper">
-                <div class="contact-info">
-                    <h2 class="contact-title">Let's Talk</h2>
-                    <p class="contact-description">First 30 minutes are free. I'll look at what you have and tell you straight if I can help.</p>
-                    <div class="contact-details">
-                        <div class="contact-detail-item">
-                            <div class="detail-icon">
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
-                                    <circle cx="12" cy="10" r="3"></circle>
-                                </svg>
-                            </div>
-                            <div class="detail-content">
-                                <p class="detail-label">Based in</p>
-                                <p class="detail-value">Paris, France</p>
-                            </div>
-                        </div>
-                        <div class="contact-detail-item">
-                            <div class="detail-icon">
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-                                    <polyline points="22,6 12,13 2,6"></polyline>
-                                </svg>
-                            </div>
-                            <div class="detail-content">
-                                <p class="detail-label">Email</p>
-                                <p class="detail-value"><a href="mailto:contact@xyzdata.co">contact@xyzdata.co</a></p>
-                            </div>
-                        </div>
+        <!-- Systems -->
+        <section id="systems" class="section">
+            <div class="container">
+                <div class="section-head section-head-left">
+                    <p class="eyebrow">Systems we work with</p>
+                    <h2>Your stack, not ours.</h2>
+                    <p class="lead">We build on the warehouse and BI tools you already pay for, and we plug into whatever your sites run at the till.</p>
+                </div>
+                <div class="systems">
+                    <div class="systems-group">
+                        <h3>Data platform &amp; BI</h3>
+                        <ul class="pills">
+                            <li>Snowflake</li>
+                            <li>Azure</li>
+                            <li>BigQuery</li>
+                            <li>dbt</li>
+                            <li>Domo</li>
+                            <li>Power BI</li>
+                        </ul>
+                    </div>
+                    <div class="systems-group">
+                        <h3>Ticketing &amp; POS</h3>
+                        <ul class="pills">
+                            <li>Online ticketing platforms</li>
+                            <li>Gate &amp; admission systems</li>
+                            <li>F&amp;B point of sale</li>
+                            <li>Retail point of sale</li>
+                            <li>Season pass &amp; membership</li>
+                            <li>Manual &amp; legacy exports</li>
+                        </ul>
+                        <p class="systems-note">Several ticketing and POS vendors are already mapped. If yours isn&#39;t one of them, it&#39;s a mapping exercise, not a blocker.</p>
                     </div>
                 </div>
-                <div class="contact-form-wrapper">
-                    <form action="https://formspree.io/f/xblvdnrq" method="POST" class="contact-form">
-                        <div class="form-row">
-                            <div class="form-group">
-                                <label for="name" class="form-label">Name *</label>
-                                <input type="text" id="name" name="name" class="form-input" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="email" class="form-label">Email *</label>
-                                <input type="email" id="email" name="email" class="form-input" required>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="company" class="form-label">Company</label>
-                            <input type="text" id="company" name="company" class="form-input">
-                        </div>
-                        <div class="form-group">
-                            <label for="message" class="form-label">Message *</label>
-                            <textarea id="message" name="message" rows="5" class="form-input form-textarea" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-full">Send Message</button>
-                    </form>
+            </div>
+        </section>
+
+        <!-- Proof -->
+        <section id="proof" class="section section-dark">
+            <div class="container">
+                <div class="section-head section-head-left">
+                    <p class="eyebrow">Proof</p>
+                    <h2>European multi-park leisure group</h2>
+                    <p class="lead">Parks across several countries, each with its own ticketing and POS vendors, and a group finance team reconciling by hand every month.</p>
+                </div>
+                <div class="stats">
+                    <div class="stat">
+                        <span class="stat-value">6</span>
+                        <span class="stat-label">parks unified</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-value">7</span>
+                        <span class="stat-label">POS providers mapped</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-value">1</span>
+                        <span class="stat-label">tested model, daily revenue &amp; visits per site</span>
+                    </div>
+                </div>
+                <p class="proof-note">Client names withheld. References available on a call.</p>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section id="about" class="section">
+            <div class="container">
+                <div class="about">
+                    <div class="about-photo" role="img" aria-label="Photo of Majdi Rabia">
+                        <span>MR</span>
+                    </div>
+                    <div class="about-text">
+                        <p class="eyebrow">About</p>
+                        <h2>Majdi Rabia</h2>
+                        <p>Founder of xyzdata, based in Paris. Previously Lead Analytics Engineer at lemlist, where he ran the data stack for a fast-growing SaaS. He teaches AI at HEC Paris and ENSTA.</p>
+                        <p>He writes the SQL himself. Every engagement is led by him, start to finish.</p>
+                        <ul class="about-facts">
+                            <li>Ex-Lead Analytics Engineer, lemlist</li>
+                            <li>Teaches AI at HEC Paris &amp; ENSTA</li>
+                            <li>Paris, works with operators across Europe</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Footer -->
+        <!-- Final CTA -->
+        <section id="contact" class="section section-cta">
+            <div class="container">
+                <h2>Start with a 20-minute call.</h2>
+                <p class="lead">Tell us how many sites you run and what you use at the till. We'll tell you straight whether a unified model makes sense, and what the Diagnostic would cover.</p>
+                <div class="cta-actions">
+                    <a href="mailto:contact@xyzdata.co?subject=20-min%20call%20about%20our%20sites" class="btn btn-primary btn-lg">Book a 20-min call</a>
+                    <a href="mailto:contact@xyzdata.co" class="cta-email">contact@xyzdata.co</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
     <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-brand">
-                    <div class="footer-logo">
-                        <img src="xyzdata-logo.svg" alt="xyzdata" style="filter: brightness(0) invert(1);">
-                    </div>
-                    <p class="footer-tagline">Majdi Rabia — I get things done.</p>
-                </div>
-                <div class="footer-copyright">
-                    <p>&copy; 2025 Majdi Rabia. All rights reserved.</p>
-                </div>
-            </div>
+        <div class="container footer-row">
+            <img src="xyzdata-logo.svg" alt="xyzdata" width="112" height="26" class="footer-logo">
+            <p>Data for multi-site attractions operators · Paris</p>
+            <p>&copy; 2026 XYZ Data</p>
         </div>
     </footer>
+
 </body>
 </html>
